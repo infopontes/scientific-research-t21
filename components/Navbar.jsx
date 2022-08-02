@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Transition } from '@headlessui/react'
 import { Link } from "react-scroll";
 import Image from "next/image";
-//import Logo from "../public/images/cellphone.png";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
+	
 	return (
 		<div>
 			<nav className=" shadow-sm fixed w-full z-10">
@@ -193,6 +193,7 @@ function Navbar() {
 								>
 									Contact
 								</Link>
+								
 							</div>
 						</div>
 					)}
