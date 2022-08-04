@@ -249,7 +249,7 @@ export default function Pesquisa() {
                 </button>
             </form>
         </div>
-        <hr></hr>
+        <hr />
     </div>
   );
 }
