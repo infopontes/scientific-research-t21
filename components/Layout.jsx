@@ -2,6 +2,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 import Head from '../node_modules/next/head'
+import Backgroud from './Backgroud'
 
 export default function Layout({children}){
     return(
@@ -10,8 +11,10 @@ export default function Layout({children}){
             <link rel="shortcut icon" href="./images/favicon.ico" />
             <title>T21</title>
         </Head>
+        
         <Navbar />
-        <main>{children}</main>
+        <Backgroud />
+            <main>{children}</main>
        {/*<Footer />*/}
     </>
     )
