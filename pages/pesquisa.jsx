@@ -100,7 +100,7 @@ export default function Pesquisa() {
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">5. Por quanto tempo ele /ela foi assitido pela TO?</h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">5. Por quantos anos ele /ela foi assitido pela TO?</h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
@@ -150,7 +150,7 @@ export default function Pesquisa() {
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">7. Como você classNameifica a saúde bucal do seu filho?</h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">7. Como você classifica a saúde bucal do seu filho?</h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
@@ -178,7 +178,7 @@ export default function Pesquisa() {
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">8. Como você classNameifica a autonomia do seu filho?</h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">8. Como você classifica a autonomia do seu filho?</h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
