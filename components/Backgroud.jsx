@@ -1,14 +1,14 @@
 import Image from "next/image"
 
-
 export default function Backgroud(){
     return(
-        <div className="bg-contain bg-center">
+        <div className="">
             <Image
             src="/images/sd_t21.jpg"
-            alt="Picture of the author"
-            layout="fill"
-            object-fit="scale-down"
+            alt="Imagem da autora"
+            layout="fixed"
+            width="40%"
+            height="40%"
             />
       </div>
     )
