@@ -134,7 +134,7 @@ export default function Pesquisa() {
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">6. Quando criança ele /ela teve contato com o dentista?</h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">6. Na infância, seu filho(a) teve contato com o dentista?</h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
@@ -150,7 +150,24 @@ export default function Pesquisa() {
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">7. Como você classifica a saúde bucal do seu filho?</h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">7. Na infância, seu filho(a) colaborava com o atendimento odontológico?</h3>
+                <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                        <div className="flex items-center pl-3">
+                            <input required id="horizontal-list-radio-p6-sim" type="radio" value="Sim" name="entry.145902322" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Sim</label>
+                        </div>
+                    </li>
+                    <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                        <div className="flex items-center pl-3">
+                            <input required id="horizontal-list-radio-p6-nao" type="radio" value="Não" name="entry.145902322" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Não</label>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">8. Atualmente, como você classifica a saúde bucal do seu filho(a)?</h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
@@ -178,51 +195,67 @@ export default function Pesquisa() {
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">8. Como você classifica a autonomia do seu filho?</h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">9. Como você classifica a autonomia do seu filho(a) para cuidados com a higiêne bucal?</h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
-                            <input required id="horizontal-list-radio-p8-ruim" type="radio" value="ruim" name="entry.861646811" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <input required id="horizontal-list-radio-p8-ruim" type="radio" value="ruim" name="entry.1086539448" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
                             <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">ruim</label>
                         </div>
                     </li>
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
-                            <input required id="horizontal-list-radio-p8-regular" type="radio" value="regular" name="entry.861646811" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <input required id="horizontal-list-radio-p8-regular" type="radio" value="regular" name="entry.1086539448" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
                             <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">regular</label>
                         </div>
                     </li>
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
-                            <input required id="horizontal-list-radio-p8-boa" type="radio" value="boa" name="entry.861646811" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <input required id="horizontal-list-radio-p8-boa" type="radio" value="boa" name="entry.1086539448" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
                             <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">boa</label>
                         </div>
                     </li>
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
-                            <input required id="horizontal-list-radio-p8-otima" type="radio" value="ótima" name="entry.861646811" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <input required id="horizontal-list-radio-p8-otima" type="radio" value="ótima" name="entry.1086539448" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
                             <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">ótima</label>
                         </div>
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">9. Em relação a saúde bucal, seu filho higieniza os dentes sozinho? </h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">10. Em relação a saúde bucal, seu filho higieniza os dentes sozinho?  </h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
-                            <input required id="horizontal-list-radio-p9-sim" type="radio" value="Sim" name="entry.548561817" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <input required id="horizontal-list-radio-p9-sim" type="radio" value="Sim" name="entry.1056615192" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
                             <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Sim</label>
                         </div>
                     </li>
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
-                            <input required id="horizontal-list-radio-p9-nao" type="radio" value="Não" name="entry.548561817" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <input required id="horizontal-list-radio-p9-nao" type="radio" value="Não" name="entry.1056615192" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
                             <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Não</label>
                         </div>
                     </li>
                 </ul>
 
-                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">10. Com qual frequência seu filho vai ao dentista?</h3>
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">11. Em relação à saúde de seu filho(a), você necessita como cuidadora e responsável reforçar ou melhorar a higiene bucal realizada por ele(a)?  </h3>
+                <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                        <div className="flex items-center pl-3">
+                            <input required id="horizontal-list-radio-p9-sim" type="radio" value="Sim" name="entry.2003048404" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Sim</label>
+                        </div>
+                    </li>
+                    <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
+                        <div className="flex items-center pl-3">
+                            <input required id="horizontal-list-radio-p9-nao" type="radio" value="Não" name="entry.2003048404" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+                            <label className="py-3 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Não</label>
+                        </div>
+                    </li>
+                </ul>
+
+                <h3 className="mt-4 mb-2 font-semibold text-gray-900 dark:text-white">12. Com qual frequência seu filho vai ao dentista?</h3>
                 <ul className="items-center w-full text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                     <li className="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
                         <div className="flex items-center pl-3">
